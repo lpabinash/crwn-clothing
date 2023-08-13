@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0001;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0007;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000a;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #eee;
+  min-height: 80em;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+h1 {
+  font-weight: 400;
+  letter-spacing: -1.5px;
+}
+h2 {
+  letter-spacing: -1px;
+}
+.nav {
+  height: auto;
+  padding: 1rem 1rem 1rem 0;
+  background-color: #fffa;
+  backdrop-filter: blur(20px);
+  z-index: 9999;
+
+  display: flex;
+
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.OFFbutton {
+  padding: 0.15em 1.2em;
+  padding: 0.1em 1.7em;
+
+  font-size: 1.3rem;
+  font-weight: bolder;
+
+  flex: 1;
+
+  border-style: none;
+  color: #fff;
+  /* border-radius: 50px; */
+
+  border: 1px solid #effb8400;
+  background-color: #000a;
+
+  /* cursor: pointer; */
+  /* margin: 10px; */
+}
+.OFFbutton:hover {
+  color: #1a1a1a;
+  border-color: #effb84;
+  border-color: black;
+  background-color: #0000;
+  transition: 150ms;
+}
